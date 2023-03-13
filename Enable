@@ -1,0 +1,16 @@
+Enable = true
+
+while Enable do
+wait()
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I'm Afk Cannot Respond", "All")
+function clickscreen()
+    local virtualUser = game:GetService('VirtualUser')
+    virtualUser:CaptureController()
+    virtualUser:ClickButton1(Vector2.new(766,766))
+    
+
+end
+clickscreen()
+wait(600)
+end
