@@ -4,13 +4,27 @@ while Enable do
 wait()
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I'm Afk Cannot Respond", "All")
-function clickscreen()
-    local virtualUser = game:GetService('VirtualUser')
-    virtualUser:CaptureController()
-    virtualUser:ClickButton1(Vector2.new(766,766))
-    
 
-end
-clickscreen()
 wait(600)
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I'm in toilet or else", "All")
+
+wait(600)
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("be quiet sleeping", "All")
+
+wait(600)
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("maybe i get huge today", "All")
+
+wait(600)
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("plz huge", "All")
+
+wait(600)
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(".....................", "All")
+
+wait(600)
+
 end
