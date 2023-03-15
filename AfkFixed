@@ -3,11 +3,11 @@ local Window = Library.CreateLib("Crimson Hub Project 2", _G.theme)
 local Tab = Window:NewTab("Afk")
 local Section = Tab:NewSection("Antiafk")
 
-Section:NewToggle("Antiafk", " ", function(state)
+Section:NewToggle("Antiafk", " ", function(_G.state)
 
-    if state then
-Afk = state
-while state do
+    if _G.state then
+Afk = _G.state
+while _G.state do
 local randomnumber = math.random(0, 5)
     wait()
 if randomnumber == 0 then
@@ -84,7 +84,7 @@ end
 
   else
 
-        Afk = state
+        Afk = _G.state
 
 print("Antiafk Disable")
 
