@@ -80,7 +80,7 @@ end
 clickscreen()
 wait(_G.cooldown)
 end
-
+end
 
   else
 
