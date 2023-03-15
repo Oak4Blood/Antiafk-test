@@ -1,5 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Crimson Hub Project 2", _G.theme)
+local ensd = 2
 local Tab = Window:NewTab("Afk")
 local Section = Tab:NewSection("Antiafk")
 
