@@ -1,0 +1,20 @@
+while _G.loop do
+    
+wait()
+
+local me = game.Players.LocalPlayer.Character
+local mecframe = me.HumanoidRootPart.CFrame
+local mepos1 = me.HumanoidRootPart.Position
+local mepos = me.HumanoidRootPart.Position * 0.001
+
+  me.Humanoid.WalkToPoint = mepos
+wait(0.3)
+  me.Humanoid.WalkToPoint = mepos1
+wait(3)
+ me.HumanoidRootPart.CFrame = mecframe
+ 
+local me = game.Players.LocalPlayer.Character.Humanoid
+
+me.Jump = true
+wait(10)
+ end
